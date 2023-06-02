@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+    <title>Acordeon</title>
+  </head>
+  <body>
+    <main>
+      <!-- titre -->
+      <div class="title">
+        <h1>Questions Générales</h1>
+      </div>
+      <!-- cartes -->
+      <div class="cards">
+        <!-- carte 1 -->
+        <div class="question">
+          <div class="question-title">
+            <p>Quels sont les différents types de données en JavaScript ?</p>
+            <button type="button" class="btn">
+              <i class="far fa-plus-square"></i>
+              <i class="far fa-minus-square"></i>
+            </button>
+          </div>
+          <div class="question-answer">
+            <p>
+              Les types de données JavaScript incluent : String, Number, Big
+              Int, Boolean, Undefined, Null, Symbol, Objects.
+            </p>
+          </div>
+        </div>
+
+        <!-- carte 2 -->
+        <div class="question">
+          <div class="question-title">
+            <p>Qu'est-Ce Qu'une Fonction De Rappel En JavaScript ?</p>
+            <button type="button" class="btn">
+              <span class="plus-icon"></span>
+              <i class="far fa-plus-square"></i>
+              <i class="far fa-minus-square"></i>
+            </button>
+          </div>
+          <div class="question-answer">
+            <p>
+              Une fonction de rappel est une fonction qui est passée en argument
+              à une autre fonction. Cette fonction est exécutée à l'intérieur de
+              la fonction à laquelle elle est passée pour "rappeler" lorsqu'une
+              action est terminée.
+            </p>
+          </div>
+        </div>
+
+        <!-- carte 3 -->
+        <div class="question">
+          <div class="question-title">
+            <p>À Quoi Sert Le "DOM" En JavaScript ?</p>
+            <button type="button" class="btn">
+              <span class="plus-icon"></span>
+              <i class="far fa-plus-square"></i>
+              <i class="far fa-minus-square"></i>
+            </button>
+          </div>
+          <div class="question-answer">
+            <p>
+              DOM en JavaScript signifie Document Object Model . C'est un moyen
+              d'interagir avec les éléments du document HTML via JavaScript.
+              Lorsque la page Web est chargée, le navigateur génère son modèle
+              d'objet de document, et il est construit comme une arborescence
+              d'objets. DOM permet de modifier dynamiquement les éléments HTML
+              et les propriétés CSS.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
